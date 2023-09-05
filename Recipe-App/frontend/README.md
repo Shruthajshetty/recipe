@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# OurKitchen - Recipe Sharing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to OurKitchen, your go-to recipe application for discovering, saving, and sharing delicious recipes with the world. Whether you're a seasoned chef or an aspiring home cook, OurKitchen has something for everyone.
 
-## Available Scripts
+![OurKitchen Logo](https://www.zarla.com/images/zarla-our-kitchen-1x1-2400x2400-20211105-h3rkb8t4qvc74kx6bjpt.png?crop=1:1,smart&width=250&dpr=2)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+OurKitchen is a web-based recipe application built with the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a platform for users to search for recipes, save their favorites, and share their own culinary creations with a community of food enthusiasts.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Recipe Search:** Search for recipes based on keywords, ingredients, cuisine, and dietary restrictions.
 
-### `npm run build`
+- **Recipe Details:** View detailed information about recipes, including ingredients, instructions, cooking time, and nutritional information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Recipe Creation:** Create and share your own recipes with the community.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Recipe Management:** Edit and delete your recipes with ease.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Dietary Restrictions:** Filter recipes based on dietary preferences, such as vegetarian, vegan, and more.
 
-### `npm run eject`
+- **User Login:** Save your preferences and access saved recipes across multiple devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get started with OurKitchen, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the Repository:**
+   - git clone https://github.com/your-username/ourkitchen.git
+   - cd ourkitchen
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install Dependencies:**
+   - cd client && npm install
+   - cd ../server && npm install
 
-## Learn More
+3. **Set Up the Database:**
+   - Create a MongoDB Atlas account (https://www.mongodb.com/cloud/atlas).
+   - Configure your database connection in the server environment.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Start the Development Servers:**
+   - cd client && npm start
+   - cd ../server && npm start
+    
+5. **Access the App:**
+   - Open your web browser and visit `http://localhost:3000` to access the OurKitchen web app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+- **Search for Recipes:** Use the search bar to discover new recipes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Save Favorites:** Create an account and save your favorite recipes for easy access.
 
-### Analyzing the Bundle Size
+- **Contribute:** Share your unique recipes with the OurKitchen community by creating and posting your recipes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+We welcome contributions from the community. If you'd like to contribute to OurKitchen, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the repository and create your branch (`git checkout -b feature/your-feature`).
 
-### Advanced Configuration
+2. Commit your changes and push to your forked repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Create a pull request to the main repository's `main` branch.
 
-### Deployment
+4. Be sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](OurKitchen) file for details.
+---
+Thank you for choosing OurKitchen for your culinary adventures. Happy cooking!
