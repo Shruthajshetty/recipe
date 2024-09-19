@@ -74,8 +74,6 @@ We welcome contributions from the community. If you'd like to contribute to OurK
 
 4. Be sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](OurKitchen) file for details.
 ---
 Thank you for choosing OurKitchen for your culinary adventures. Happy cooking!
